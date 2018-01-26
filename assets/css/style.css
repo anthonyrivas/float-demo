@@ -1,0 +1,51 @@
+
+/* The clearfix hack should be applied to elements who contain floatins elements. This will force the browser to clear those floats properly. Great when your container height isn't matching floated content height. */
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+/* This is our mai container for this content. It forces a set width for all of its children. */
+.container{
+    width: 60%;
+    margin: 0 auto;
+}
+/* The left class is added to any elements we want to float left. This is helpful for quickly adding a float to all elements. */
+.left{
+    float: left;
+}
+/* Container for our left side content. Notice that if you adjust width without considering padding our elements won't properly fit side by side. */
+.bio{
+    width: 56%;
+    padding: 2%;
+    background-color: #222222;
+    color: white;
+}
+/* Sets a max width and a bit of area around our headshot element. */
+.headshot{
+    max-width:20%;
+    margin: 0 1.5em 1em 0;
+}
+
+/* Container for our right side content. Notice that if you adjust width without considering padding our elements won't properly fit side by side. */
+.icon-links{
+    width: 34%;
+    padding: 2%;
+    margin-left: 2%;
+    background-color: #747474;
+    color: white;
+}
+
+/* Applied to our link <a> elements in our right menu. */
+.icon-container{
+    margin: 8px 5px 0 0;
+}
+/* Used to abvoid extra padding on the last element. */
+.icon-container:last-child{
+    margin-right: 0;
+}
+/* Sets our icon images to have matching sizes. Applied directly to the <img> tags. */
+.icon{
+    width: 50px;
+    height: 50px;
+}
