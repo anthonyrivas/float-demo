@@ -62,7 +62,7 @@
 }
 /* Sets a max width and a bit of area around our headshot element. */
 .headshot{
-    max-width:20%;
+    max-height: 5em;
     margin: 0 1.5em 1em 0;
 }
 
