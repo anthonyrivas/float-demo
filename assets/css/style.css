@@ -62,8 +62,8 @@
 }
 /* Sets a max width and a bit of area around our headshot element. */
 .headshot{
-    max-height: 5em;
-    margin: 0 1.5em 1em 0;
+    max-height: 8em;
+    margin: 0 1.5em 0 0;
 }
 
 /* Container for our right side content. Notice that if you adjust width without considering padding our elements won't properly fit side by side. */
