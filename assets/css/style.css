@@ -50,9 +50,28 @@
 .left{
     float: left;
 }
+<<<<<<< HEAD
 .right{
     float: right;
 }
+=======
+
+.right{
+    float: right;
+}
+.header{
+    margin-bottom: 20px;
+    height: 75px;
+}
+.name-container{
+    background-color: aqua;
+    padding: 0 20px;
+    height: 75px;
+}
+.nav-links-container{
+    height: 75px;
+}
+>>>>>>> 608bb6a8c4d5c8b4b42baa4994cf290633a3b75f
 /* Container for our left side content. Notice that if you adjust width without considering padding our elements won't properly fit side by side. */
 .bio{
     width: 71%;
